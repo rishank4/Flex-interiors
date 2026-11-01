@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="12" fill="#0C0C0D" />
+  <rect x="2" y="2" width="60" height="60" rx="10" fill="none" stroke="#B08D57" stroke-width="1" stroke-opacity="0.3" />
+  <!-- Architectural grid mark -->
+  <path d="M18 16 H46 V22 H24 V28 H40 V34 H24 V48 H18 Z" fill="#B08D57" />
+  <path d="M42 28 H46 V48 H42 Z" fill="#CFAE78" />
+  <circle cx="44" cy="20" r="2" fill="#FFFFFF" />
+</svg>
+

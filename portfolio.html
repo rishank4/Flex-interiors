@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selected Portfolio — Flex Interiors | Architectural Interiors</title>
+  <meta name="description" content="Explore 16 curated architectural interior projects across luxury residential, commercial headquarters, boutique retail, and turnkey renovations.">
+  <link rel="canonical" href="https://flexinteriors.com/portfolio.html">
+
+  <meta property="og:title" content="Portfolio of Selected Works — Flex Interiors">
+  <meta property="og:description" content="Curated residential, commercial, and luxury architectural interior commissions.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://flexinteriors.com/portfolio.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=85">
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Site Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <a href="index.html" class="brand" aria-label="Flex Interiors Homepage">
+        <svg class="brand-mark" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="44" height="44" fill="#0C0C0D" rx="6" />
+          <path d="M12 11H32V15H17V20H28V24H17V33H12V11Z" fill="#B08D57"/>
+          <path d="M29 20H32V33H29V20Z" fill="#CFAE78"/>
+        </svg>
+        <div class="brand-text">
+          <span class="brand-name">FLEX INTERIORS</span>
+          <span class="brand-subline">ARCHITECTURAL INTERIORS</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" role="navigation" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="portfolio.html" class="nav-link active">Portfolio</a>
+        <a href="process.html" class="nav-link">Process</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-sm btn-primary header-cta">Free Consultation</a>
+        <button class="menu-toggle" aria-label="Open mobile navigation menu" aria-expanded="false" aria-controls="mobile-drawer">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-drawer" class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Navigation Menu">
+    <div class="drawer-header">
+      <a href="index.html" class="brand">
+        <div class="brand-text">
+          <span class="brand-name">FLEX INTERIORS</span>
+          <span class="brand-subline">ARCHITECTURAL INTERIORS</span>
+        </div>
+      </a>
+    </div>
+    <nav class="drawer-nav">
+      <a href="index.html" class="drawer-link"><span class="link-num">01</span> Home</a>
+      <a href="about.html" class="drawer-link"><span class="link-num">02</span> About</a>
+      <a href="services.html" class="drawer-link"><span class="link-num">03</span> Services</a>
+      <a href="portfolio.html" class="drawer-link active"><span class="link-num">04</span> Portfolio</a>
+      <a href="process.html" class="drawer-link"><span class="link-num">05</span> Process</a>
+      <a href="contact.html" class="drawer-link"><span class="link-num">06</span> Contact</a>
+    </nav>
+    <div class="drawer-footer">
+      <div class="drawer-contact-item">Direct: <a href="tel:+15553894200" data-config="phone">+1 (555) 389-4200</a></div>
+      <div class="drawer-contact-item">Email: <a href="mailto:concierge@flexinteriors.com" data-config="email">concierge@flexinteriors.com</a></div>
+      <div class="drawer-socials">
+        <a href="#" class="drawer-social-link" data-config-social="instagram">Instagram</a>
+        <a href="#" class="drawer-social-link" data-config-social="pinterest">Pinterest</a>
+        <a href="#" class="drawer-social-link" data-config-social="linkedin">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Page Hero Banner -->
+    <section class="page-hero" aria-labelledby="portfolio-hero-title">
+      <div class="container">
+        <div class="page-hero-content fade-up in-view">
+          <span class="eyebrow">Curated Archive</span>
+          <h1 id="portfolio-hero-title">Selected Works</h1>
+          <p>A portfolio of private residences, executive offices, and luxury environments shaped by structural clarity, noble materials, and bespoke craftsmanship.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery & Filter Section -->
+    <section class="section bg-white" aria-label="Architectural project gallery">
+      <div class="container">
+        <!-- Filter Tabs (with counts updated by JS) -->
+        <div class="portfolio-filters fade-up">
+          <button class="filter-btn active" data-filter="all">All <span class="filter-count">(16)</span></button>
+          <button class="filter-btn" data-filter="residential">Residential <span class="filter-count"></span></button>
+          <button class="filter-btn" data-filter="commercial">Commercial <span class="filter-count"></span></button>
+          <button class="filter-btn" data-filter="office">Office <span class="filter-count"></span></button>
+          <button class="filter-btn" data-filter="retail">Retail <span class="filter-count"></span></button>
+          <button class="filter-btn" data-filter="luxury">Luxury <span class="filter-count"></span></button>
+        </div>
+
+        <!-- 16 Architectural Projects Grid -->
+        <div class="gallery-grid" id="portfolio-grid">
+          <!-- 1: Tribeca Loft -->
+          <article class="project-card fade-up" data-category="residential" data-lightbox data-full-img="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85">
+            <img class="project-img" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Tribeca Loft living space with double-height ceiling and marble fireplace" loading="lazy">
+            <div class="project-overlay">
+              <span class="project-category">Residential</span>
+              <h3 class="project-title">The Tribeca Loft</h3>
+              <span class="project-location">Tribeca, New York · 2024</span>
+            </div>
+          </article>
+
+          <!-- 2: Hamptons Coastal Pavilion -->
+          <article class="project-card fade-up" data-category="luxury" data-lightbox data-full-img="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=85">
+            <img class="project-img" src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" alt="Hamptons modern coastal pavilion overlooking water" loading="lazy">
+            <div class="project-overlay">
+              <span class="project-category">Luxury</span>
+              <h3 class="project-title">Hamptons Coastal Pavilion</h3>
+              <span class="project-location">Southampton, NY · 2023</span>
+            </div>
+          </article>
+
+          <!-- 3: Aura Venture Capital HQ -->
+          <article class="project-card fade-up" data-category="office" data-lightbox data-full-img="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=85">
+            <img class="project-img" src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80" alt="Executive office suite with architectural slatted wooden walls" loading="lazy">
+            <div class="project-overlay">
+              <span class="project-category">Office</span>
+              <h3 class="project-title">Aura Venture Partners</h3>
+              <span class="project-location">Madison Avenue, NY · 2024</span>
+            </div>
+          </article>
+
+          <!-- 4: SoHo Penthouse Duplex -->
+          <article class="project-card fade-up" data-category="luxury" data-lightbox data-full-img="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85">
+            <img class="project-img" src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="SoHo duplex penthouse with floor to ceiling windows and custom furniture" loading="lazy">
+            <div class="project-overlay">
+              <span class="project-category">Luxury</span>
+              <h3 class="project-title">SoHo Duplex Penthouse</h3>
+              <span class="project-location">SoHo, New York · 2024</span>
+            </div>
+          </article>
+
+          <!-- 5: Greenwich Townhouse -->
+          <article class="project-card fade-up" data-category="residential" data-lightbox data-full-img="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=85">
+            <img class="project-img" src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80" alt="Historic Greenwich Townhouse modern architectural renovation" loading="lazy">
+            <div class="project-overlay">
+              <span class="project-category">Residential</span>
+              <h3 class="project-title">Greenwich Village Townhouse</h3>
+              <span class="project-location">West Village, NY · 2023</span>
+            </div>
+          </article>
+
+          <!-- 6: Maison Horlogère Flagship -->
+          <article class="project-card fade-up" data-category="retail" data-lightbox data-full-img="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1600&q=85">
+            <img class="project-img" src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80" alt="Luxury timepiece boutique showroom with bronze vitrines and indirect lighting" loading="lazy">
+            <div class="project-overlay">
+              <span class="project-category">Retail</span>
+              <h3 class="project-title">Maison Horlogère Boutique</h3>
+              <span class="project-location">5th Avenue, NY · 2024</span>
+            </div>
+          </article>
+
+          <!-- 7: Kanso Japanese Culinary Club -->
+          <article class="project-card fade-up" data-category="commercial" data-lightbox data-full-img="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=85">
+            <img class="project-img" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Private omakase dining room with blackened hinoki timber and stone fountain" loading="lazy">
+            <div class="project-overlay">
+              <span class="project-category">Commercial</span>
+              <h3 class="project-title">Kanso Culinary Club</h3>
+              <span class="project-location">Chelsea, NY · 2023</span>
+            </div>
+          </article>
+
+          <!-- 8: One57 Horizon Suite -->
+          <article class="project-card fade-up" data-category="luxury" data-lightbox data-full-img="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=85">
+            <img class="project-img" src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80" alt="Billionaires Row luxury apartment overlooking Central Park" loading="lazy">
+            <div class="project-overlay">
+              <span class="project-category">Luxury</span>
+              <h3 class="project-title">Horizon Tower Suite</h3>
+              <span class="project-location">57th Street, NY · 2024</span>
+            </div>
+          </article>
+
+          <!-- 9: Monolith Law Chambers -->
+          <article class="project-card fade-up" data-category="office" data-lightbox data-full-img="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1600&q=85">
+            <img class="project-img" src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=800&q=80" alt="Law firm executive conference boardroom with soundproof acoustic glass" loading="lazy">
+            <div class="project-overlay">
+              <span class="project-category">Office</span>
+              <h3 class="project-title">Vance & Sterling Chambers</h3>
+              <span class="project-location">Rockefeller Center, NY · 2023</span>
+            </div>
+          </article>
+
+          <!-- 10: Aspen Mountain Chalet -->
+          <article class="project-card fade-up" data-category="residential" data-lightbox data-full-img="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1600&q=85">
+            <img class="project-img" src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=800&q=80" alt="Modern alpine chalet with rough-hewn stone fireplace and Douglas fir beams" loading="lazy">
+            <div class="project-overlay">
+              <span class="project-category">Residential</span>
+              <h3 class="project-title">The Aspen Alpine Lodge</h3>
+              <span class="project-location">Aspen, CO · 2024</span>
+            </div>
+          </article>
+
+          <!-- 11: Atelier Céramique Gallery -->
+          <article class="project-card fade-up" data-category="retail" data-lightbox data-full-img="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1600&q=85">
+            <img class="project-img" src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=800&q=80" alt="Contemporary art gallery with polished concrete floors and micro-cement plinths" loading="lazy">
+            <div class="project-overlay">
+              <span class="project-category">Retail</span>
+              <h3 class="project-title">Galerie Céramique</h3>
+              <span class="project-location">NoHo, New York · 2023</span>
+            </div>
+          </article>
+
+          <!-- 12: Pacific Coast Villa -->
+          <article class="project-card fade-up" data-category="residential" data-lightbox data-full-img="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=85">
+            <img class="project-img" src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80" alt="Minimalist cantilevered villa overlooking Pacific ocean" loading="lazy">
+            <div class="project-overlay">
+              <span class="project-category">Residential</span>
+              <h3 class="project-title">Point Dume Villa</h3>
+              <span class="project-location">Malibu, CA · 2023</span>
+            </div>
+          </article>
+
+          <!-- 13: Beacon Capital Trading Floor -->
+          <article class="project-card fade-up" data-category="commercial" data-lightbox data-full-img="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1600&q=85">
+            <img class="project-img" src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80" alt="Quantitative investment fund office with ergonomic workstations" loading="lazy">
+            <div class="project-overlay">
+              <span class="project-category">Commercial</span>
+              <h3 class="project-title">Beacon Capital Offices</h3>
+              <span class="project-location">Hudson Yards, NY · 2024</span>
+            </div>
+          </article>
+
+          <!-- 14: Central Park South Residence -->
+          <article class="project-card fade-up" data-category="luxury" data-lightbox data-full-img="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85">
+            <img class="project-img" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80" alt="Central Park South private residence with travertine slabs and bronze details" loading="lazy">
+            <div class="project-overlay">
+              <span class="project-category">Luxury</span>
+              <h3 class="project-title">Central Park South Residence</h3>
+              <span class="project-location">Central Park, NY · 2023</span>
+            </div>
+          </article>
+
+          <!-- 15: Scent & Silk Flagship -->
+          <article class="project-card fade-up" data-category="retail" data-lightbox data-full-img="https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1600&q=85">
+            <img class="project-img" src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800&q=80" alt="Haute parfumerie boutique retail space with fluted glass walls" loading="lazy">
+            <div class="project-overlay">
+              <span class="project-category">Retail</span>
+              <h3 class="project-title">Atelier Parfumerie</h3>
+              <span class="project-location">Meatpacking, NY · 2024</span>
+            </div>
+          </article>
+
+          <!-- 16: Tribeca Creative Agency Studios -->
+          <article class="project-card fade-up" data-category="office" data-lightbox data-full-img="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=85">
+            <img class="project-img" src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=800&q=80" alt="Creative studio office space with natural daylighting and micro-cement surfaces" loading="lazy">
+            <div class="project-overlay">
+              <span class="project-category">Office</span>
+              <h3 class="project-title">Kallos Studio Headquarters</h3>
+              <span class="project-location">Tribeca, NY · 2024</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Full-screen Lightbox Modal -->
+    <div id="lightbox-modal" class="lightbox-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Project Preview Modal">
+      <button class="lightbox-close" aria-label="Close Lightbox">✕</button>
+      <button class="lightbox-nav-btn lightbox-prev" aria-label="Previous Project">←</button>
+      <button class="lightbox-nav-btn lightbox-next" aria-label="Next Project">→</button>
+
+      <div class="lightbox-content">
+        <div class="lightbox-img-wrapper">
+          <img class="lightbox-img" src="" alt="Full size project view">
+        </div>
+        <div class="lightbox-info">
+          <h3 class="lightbox-title"></h3>
+          <div class="lightbox-meta"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA Section -->
+    <section class="section bg-ivory">
+      <div class="container">
+        <div style="background-color: var(--color-black); color: var(--color-white); padding: clamp(48px, 6vw, 80px); text-align: center; border: 1px solid var(--border-gold);" class="fade-up">
+          <span class="eyebrow center">Create with Us</span>
+          <h2 style="color: #fff; margin-bottom: 20px;">Have a Vision in Mind?</h2>
+          <p style="color: var(--color-text-dim); max-width: 600px; margin: 0 auto 32px;">Every portfolio project began with an exploratory site survey and architectural dialogue. Reach out to discuss your property.</p>
+          <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+            <a href="contact.html" class="btn btn-primary">Schedule Consultation</a>
+            <a href="services.html" class="btn btn-secondary">Explore Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand" style="margin-bottom: 20px;">
+            <svg class="brand-mark" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="44" height="44" fill="#0C0C0D" rx="6" />
+              <path d="M12 11H32V15H17V20H28V24H17V33H12V11Z" fill="#B08D57"/>
+              <path d="M29 20H32V33H29V20Z" fill="#CFAE78"/>
+            </svg>
+            <div class="brand-text">
+              <span class="brand-name">FLEX INTERIORS</span>
+              <span class="brand-subline">ARCHITECTURAL INTERIORS</span>
+            </div>
+          </a>
+          <p style="font-size: 14px; color: var(--color-text-dim); line-height: 1.6; margin-bottom: 20px;">
+            Architectural interior design studio delivering bespoke residential, commercial, and luxury environments built on timeless restraint and master joinery.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="social-icon-btn" data-config-social="instagram" aria-label="Instagram">IG</a>
+            <a href="#" class="social-icon-btn" data-config-social="pinterest" aria-label="Pinterest">PI</a>
+            <a href="#" class="social-icon-btn" data-config-social="linkedin" aria-label="LinkedIn">IN</a>
+            <a href="#" class="social-icon-btn" data-config-social="facebook" aria-label="Facebook">FB</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Studio</a></li>
+            <li><a href="services.html">Services & Packages</a></li>
+            <li><a href="portfolio.html">Selected Portfolio</a></li>
+            <li><a href="process.html">Methodology & Process</a></li>
+            <li><a href="contact.html">Contact & Consultation</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Interior Architecture</a></li>
+            <li><a href="services.html">Modular Kitchens</a></li>
+            <li><a href="services.html">Custom Furniture & FF&E</a></li>
+            <li><a href="services.html">Lighting & Ceilings</a></li>
+            <li><a href="services.html">Luxury Renovation</a></li>
+            <li><a href="services.html">Turnkey Execution</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Studio Headquarters</h4>
+          <p style="font-size: 14px; color: var(--color-text-dim); margin-bottom: 12px;" data-config="address">
+            450 Architectural Pavilion, Design District, Suite 800, New York, NY 10011
+          </p>
+          <p style="font-size: 14px; margin-bottom: 6px;">
+            <strong style="color: var(--color-white);">Tel:</strong> <a href="tel:+15553894200" data-config="phone" style="color: var(--color-gold-light);">+1 (555) 389-4200</a>
+          </p>
+          <p style="font-size: 14px; margin-bottom: 16px;">
+            <strong style="color: var(--color-white);">Email:</strong> <a href="mailto:concierge@flexinteriors.com" data-config="email" style="color: var(--color-gold-light);">concierge@flexinteriors.com</a>
+          </p>
+          <div class="status-pill open" style="margin-left: 0;">● Studio Open</div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; <span data-config="year">2026</span> Flex Interiors. All architectural designs and trademarks reserved.</div>
+        <div>Crafted with Architectural Precision.</div>
+      </div>
+    </div>
+  </footer>
+
+  <aside class="floating-actions" aria-label="Quick Actions">
+    <a href="#" class="float-btn float-whatsapp" data-config="whatsapp" aria-label="Chat directly on WhatsApp">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.969.582 1.961.94 2.796.94 3.179 0 5.767-2.587 5.767-5.766.001-3.187-2.575-5.727-5.727zm3.375 8.167c-.145.408-.838.775-1.164.821-.325.046-.712.062-2.146-.519-1.528-.62-2.497-2.186-2.574-2.288-.075-.103-.615-.818-.615-1.56 0-.743.388-1.109.526-1.261.137-.153.301-.191.402-.191.103 0 .205.002.295.006.096.004.225-.036.352.269.13.313.444 1.082.483 1.161.039.079.065.171.013.275-.052.103-.078.167-.156.257-.078.09-.164.2-.234.269-.078.077-.16.16-.069.317.091.156.404.667.867 1.079.596.53 1.099.694 1.256.772.156.078.248.069.339-.035.092-.104.391-.456.495-.612.104-.156.208-.13.348-.078.14.052.888.419 1.041.495.153.076.255.114.293.178.038.064.038.371-.107.779z"/>
+      </svg>
+    </a>
+    <button id="back-to-top" class="float-btn float-top" aria-label="Scroll back to top">↑</button>
+  </aside>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
