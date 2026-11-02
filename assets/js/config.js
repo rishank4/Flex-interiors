@@ -14,22 +14,22 @@ const FLEX_CONFIG = {
     established: 2012,
   },
   contact: {
-    email: "concierge@flexinteriors.com",
-    phone: "+1 (555) 389-4200",
-    phoneRaw: "+15553894200",
-    whatsappNumber: "15553894200", // International format without + or spaces
-    whatsappDisplay: "+1 (555) 389-4200",
+    email: "rishankalathingal6003@gmail.com",
+    phone: "+91 96450 46003",
+    phoneRaw: "+919645046003",
+    whatsappNumber: "919645046003", // International format without + or spaces
+    whatsappDisplay: "+91 96450 46003",
     address: {
       line1: "450 Architectural Pavilion",
-      line2: "Design District, Suite 800",
-      city: "New York",
+      line2: "Mavoor Road, Suite 12",
+      city: "Calicut",
       state: "NY",
       postalCode: "10011",
       country: "United States",
-      full: "450 Architectural Pavilion, Design District, Suite 800, New York, NY 10011"
+      full: "12/A, Architects Colony, Mavoor Road, Calicut, Kerala 673001"
     },
     googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.238479373809!2d-74.0084!3d40.742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bf5c1654f3%3A0xc80f9cf377f7c46d!2sMeatpacking%20District%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus",
-    googleMapsDirectionsUrl: "https://maps.google.com/?q=Meatpacking+District+New+York+NY"
+    googleMapsDirectionsUrl: "https://maps.google.com/?q=Kozhikode+Kerala+India"
   },
   socials: {
     instagram: "https://instagram.com/flexinteriors",
@@ -56,8 +56,8 @@ const FLEX_CONFIG = {
   form: {
     // FormSubmit endpoint: change to your email or Web3Forms access key
     // For FormSubmit: https://formsubmit.co/ajax/your-email@example.com
-    endpoint: "https://formsubmit.co/ajax/concierge@flexinteriors.com",
-    recipientEmail: "concierge@flexinteriors.com",
+    endpoint: "https://formsubmit.co/ajax/rishankalathingal6003@gmail.com",
+    recipientEmail: "rishankalathingal6003@gmail.com",
     timeoutMs: 12000
   }
 };

@@ -793,7 +793,7 @@
         if (!validateForm()) return;
 
         const data = getFormPayload();
-        const waNumber = config.contact ? config.contact.whatsappNumber : '15553894200';
+        const waNumber = config.contact ? config.contact.whatsappNumber : '919645046003';
 
         const waText =
 `*New Consultation Request — Flex Interiors*
@@ -828,8 +828,8 @@ ${data.message}`;
       if (!validateForm()) return;
 
       const data = getFormPayload();
-      const endpoint = (config.form && config.form.endpoint) ? config.form.endpoint : 'https://formsubmit.co/ajax/concierge@flexinteriors.com';
-      const recipient = (config.form && config.form.recipientEmail) ? config.form.recipientEmail : 'concierge@flexinteriors.com';
+      const endpoint = (config.form && config.form.endpoint) ? config.form.endpoint : 'https://formsubmit.co/ajax/rishankalathingal6003@gmail.com';
+      const recipient = (config.form && config.form.recipientEmail) ? config.form.recipientEmail : 'rishankalathingal6003@gmail.com';
       const timeoutMs = (config.form && config.form.timeoutMs) || 12000;
 
       // Loading state
@@ -920,7 +920,7 @@ ${data.message}`
         <h4 style="color: #B71C1C; margin-bottom: 8px;">Direct Transmission Backup</h4>
         <p style="color: #C62828; font-size: 14px; margin-bottom: 12px;">We encountered a network delay sending directly from the browser. Your brief has been prepared for dispatch.</p>
         <a href="${mailtoUrl}" class="btn btn-sm btn-primary" style="margin-right: 10px;">Send via Email Client</a>
-        <a href="https://wa.me/${config.contact?.whatsappNumber || '15553894200'}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-whatsapp">Send via WhatsApp</a>
+        <a href="https://wa.me/${config.contact?.whatsappNumber || '919645046003'}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-whatsapp">Send via WhatsApp</a>
       `;
       notificationBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
