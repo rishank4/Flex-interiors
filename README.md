@@ -27,3 +27,4 @@ All studio contact details (phone, email, WhatsApp, address, hours) are centrali
 
 ## Hosting
 Deploy to **Netlify**, **Vercel**, or **Cloudflare Pages** by dragging the folder or connecting this repository.
+
