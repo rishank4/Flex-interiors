@@ -20,16 +20,16 @@ const FLEX_CONFIG = {
     whatsappNumber: "919645046003", // International format without + or spaces
     whatsappDisplay: "+91 96450 46003",
     address: {
-      line1: "450 Architectural Pavilion",
-      line2: "Mavoor Road, Suite 12",
+      line1: "12/A, Architects Colony",
+      line2: "Mavoor Road",
       city: "Calicut",
-      state: "NY",
-      postalCode: "10011",
-      country: "United States",
+      state: "Kerala",
+      postalCode: "673001",
+      country: "India",
       full: "12/A, Architects Colony, Mavoor Road, Calicut, Kerala 673001"
     },
-    googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.238479373809!2d-74.0084!3d40.742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bf5c1654f3%3A0xc80f9cf377f7c46d!2sMeatpacking%20District%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus",
-    googleMapsDirectionsUrl: "https://maps.google.com/?q=Kozhikode+Kerala+India"
+    googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125218.42838507204!2d75.74233722510257!3d11.258753139363065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65938563d4747%3A0x32150641ca32ecab!2sKozhikode%2C%20Kerala!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+    googleMapsDirectionsUrl: "https://maps.google.com/?q=Mavoor+Road+Calicut+Kerala+India"
   },
   socials: {
     instagram: "https://instagram.com/flexinteriors",

@@ -94,9 +94,18 @@
     const statusPill = document.querySelector('#studio-status-pill');
     if (!hoursContainer || !hoursList) return;
 
-    const now = new Date();
-    const currentDayIndex = now.getDay(); // 0 is Sunday, 1 is Monday...
-    const currentMinutes = now.getHours() * 60 + now.getMinutes();
+    // Calculate time in Indian Standard Time (Asia/Kolkata, UTC+5:30)
+    let currentDayIndex, currentMinutes;
+    try {
+      const istString = new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" });
+      const istDate = new Date(istString);
+      currentDayIndex = istDate.getDay(); // 0 is Sunday, 1 is Monday...
+      currentMinutes = istDate.getHours() * 60 + istDate.getMinutes();
+    } catch (e) {
+      const now = new Date();
+      currentDayIndex = now.getDay();
+      currentMinutes = now.getHours() * 60 + now.getMinutes();
+    }
 
     let html = '';
     let isOpenNow = false;
@@ -923,9 +932,6 @@ ${data.message}`
         <a href="https://wa.me/${config.contact?.whatsappNumber || '919645046003'}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-whatsapp">Send via WhatsApp</a>
       `;
       notificationBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
-
-      // Automatically trigger mailto fallback
-      window.location.href = mailtoUrl;
     }
   }
 
